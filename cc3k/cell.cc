@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// test
 /* test */
 /* test   
 
@@ -14,6 +13,7 @@ using namespace std;
 /* test */
 /* testttttttttttt
 */
+// testtttttttttttttt
 
 Cell::Cell(int r, int c, char symbol, std::string type)
     : row{r}, col{c}, symbol{symbol}, type{type} {
@@ -23,6 +23,7 @@ Cell::Cell(int r, int c, char symbol, std::string type)
 Cell::~Cell() {}
 
 int Cell::getRow() {
+    test = 1;
     return this->row;
 }
 
