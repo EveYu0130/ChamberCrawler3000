@@ -8,9 +8,12 @@ using namespace std;
 /* test   
 
 
-
-
 */ 
+
+// testtttttttttttt
+/* test */
+/* testttttttttttt
+*/
 
 Cell::Cell(int r, int c, char symbol, std::string type)
     : row{r}, col{c}, symbol{symbol}, type{type} {
