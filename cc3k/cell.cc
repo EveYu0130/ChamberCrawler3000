@@ -7,7 +7,7 @@ using namespace std;
 /* test */
 /* test
 
-*/
+*/ 
 
 Cell::Cell(int r, int c, char symbol, std::string type)
     : row{r}, col{c}, symbol{symbol}, type{type} {
