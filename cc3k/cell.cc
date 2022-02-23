@@ -3,6 +3,12 @@
 
 using namespace std;
 
+// test
+/* test */
+/* test
+
+*/
+
 Cell::Cell(int r, int c, char symbol, std::string type)
     : row{r}, col{c}, symbol{symbol}, type{type} {
     prev = symbol;
