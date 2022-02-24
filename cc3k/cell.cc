@@ -13,7 +13,6 @@ using namespace std;
 /* test */
 /* testttttttttttt
 */
-// testtttttttttttttt 
 
 Cell::Cell(int r, int c, char symbol, std::string type)
     : row{r}, col{c}, symbol{symbol}, type{type} {
