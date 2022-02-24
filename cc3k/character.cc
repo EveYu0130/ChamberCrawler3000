@@ -1,6 +1,7 @@
 #include "character.h"
 using namespace std;
 
+// test comment
 Character::Character(int row, int col, Floor *f, char symbol, string type)
 : Cell{row, col, symbol, type}, f{f} {}
 

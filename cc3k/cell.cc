@@ -56,6 +56,7 @@ void Cell::setType(string type) {
 }
 
 void Cell::setSymbol(char s) {
+    test = 1
     this->symbol = symbol;
 }
 
