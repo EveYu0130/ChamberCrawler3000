@@ -44,6 +44,8 @@ string Cell::getType() {
 
 
 void Cell::setCood(int r, int c) {
+    // this is  a test
+    test = 1
     this->row = r;
     this->col = c;
 }
