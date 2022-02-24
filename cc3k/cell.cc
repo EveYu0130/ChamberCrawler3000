@@ -14,6 +14,7 @@ using namespace std;
 /* testttttttttttt
 */
 // testtttttttttttt
+# testtttttt
 
 Cell::Cell(int r, int c, char symbol, std::string type)
     : row{r}, col{c}, symbol{symbol}, type{type} {
@@ -38,6 +39,7 @@ char Cell::getSymbol() {
 }
 
 string Cell::getType() {
+    test = 1
     return this->type;
 }
 
