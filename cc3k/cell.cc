@@ -13,7 +13,7 @@ using namespace std;
 /* test */
 /* testttttttttttt
 */
-// testtttttttttttttt
+// testtttttttttttttt 
 
 Cell::Cell(int r, int c, char symbol, std::string type)
     : row{r}, col{c}, symbol{symbol}, type{type} {
@@ -28,6 +28,7 @@ int Cell::getRow() {
 }
 
 int Cell::getCol() {
+    test  =  1
     return this->col;
 }
 
