@@ -51,7 +51,8 @@ void Cell::setCood(int r, int c) {
 }
 
 void Cell::setType(string type) {
-    this->type = type;
+    this->type = type; 
+    test = 1
 }
 
 void Cell::setSymbol(char s) {
